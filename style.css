@@ -1,0 +1,129 @@
+* {
+    margin: 0; padding: 0;
+    transition: all 0.5s ease-in-out;
+}
+@font-face {
+    font-family: ArialtoBlack;
+    src: url(images/ArialBlack.ttf); 
+}
+div.main{
+    position: fixed;
+    background-image: url(http://www.ctc.fm/wp-content/uploads/USDnews-6.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 0;
+}
+div.top{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    min-width: 160px;
+}
+ul{
+    list-style: none;
+}
+ul.top li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+ul.top a{
+    background-image: url(https://static.tildacdn.com/tild3966-3035-4430-b332-616532653333/iconset_socialnetworks.png);
+    background-size: 693px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+a.vk{
+    background-position: -431px -88px;
+}
+a.vk:hover{
+    background-position: -240px -60px; 
+    background-size: 518px;
+}
+a.ins{
+    background-position: -121px -194px
+}
+a.ins:hover{
+    background-position: -533px -88px;
+}
+a.fcb{
+    background-position: -227px -302px;
+}
+a.fcb:hover{
+    background-position: -82px -212px;
+    background-size: 500px;
+
+}
+a.you{
+    background-position: -327.5px -194px;
+}
+a.you:hover{
+        background-position: -173.5px -148px;
+        background-size: 543px;
+}
+div.center{
+    position: absolute;
+    border: 4px solid white;
+    width:30%;
+    left:50%;
+    margin-left: -15%;
+    height: 20%;
+    top: 50%;
+    margin-top: -10%;
+    background-color: black;
+    background-image: url(https://psv4.userapi.com/c834701/u160477698/docs/d4/7b674c781389/logo.png?extra=aO-ZG-EBmLrVlttjcdKE1lrzG-SBMrP0HyWFZ4c4PMpkoF2b67sKi9Ziz6pUESvfV6u-ZPVQyi1kFSVXEDGLMbtoRj8obsb-MEz5YFmRD9tgSURug-gGA6MaroVrgrjV1W_NS2d6AZGlMA);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.90;
+}
+div.center:hover{
+    background-color: white;
+    border-color: black;
+}
+div.down, div.bottom{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 15%;
+}
+div.down{
+    background-color: rgba(255,255,255,0.2);
+    z-index: 1;
+}
+div.bottom{
+    z-index: 2;
+}
+div.bottomin{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 16.66%;
+    float: left;
+}
+div.bottomin a{
+    font-family: "ArialtoBlack";
+    font-size: 20px;
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 12.5%;
+    padding-bottom: 12.5%;
+    opacity: 1;
+    
+}
+div.bottomin a:hover{
+    color: black;
+    font-size: 40px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-color: rgba(255,255,255,0.4)
+}
