@@ -73,16 +73,20 @@ div.center{
     height: 20%;
     top: 50%;
     margin-top: -10%;
-    background-color: black;
-    background-image: url(https://psv4.userapi.com/c834701/u160477698/docs/d4/7b674c781389/logo.png?extra=aO-ZG-EBmLrVlttjcdKE1lrzG-SBMrP0HyWFZ4c4PMpkoF2b67sKi9Ziz6pUESvfV6u-ZPVQyi1kFSVXEDGLMbtoRj8obsb-MEz5YFmRD9tgSURug-gGA6MaroVrgrjV1W_NS2d6AZGlMA);
+    background-color: rgba(0,0,0,0.9);
+    background-image: url(/images/logo.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    opacity: 0.90;
 }
 div.center:hover{
-    background-color: white;
     border-color: black;
+    background-color: rgba(255,255,255,0.9);
+    background-image: url(/images/logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;ы
+    
 }
 div.down, div.bottom{
     display: block;
